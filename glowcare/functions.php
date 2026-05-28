@@ -118,7 +118,6 @@ add_action( 'widgets_init', 'glowcare_widgets_init' );
  */
 function glowcare_scripts() {
 wp_enqueue_style( 'glowcare-style', get_stylesheet_uri(), array(), GLOWCARE_VERSION );
-	wp_enqueue_style( 'glowcare-main', get_template_directory_uri() . '/assets/css/main.css', array(), GLOWCARE_VERSION );
 
 // Google Fonts: Playfair Display for headings, Montserrat for body
 wp_enqueue_style(

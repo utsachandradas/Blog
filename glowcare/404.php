@@ -4,9 +4,8 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-<div class="container">
-<div class="site-main">
-<div class="content-area">
+	<div class="container">
+	<div class="content-area">
 <section class="error-404 not-found">
 <header class="page-header">
 <h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'glowcare' ); ?></h1>
@@ -17,11 +16,10 @@ get_header();
 <?php get_search_form(); ?>
 </div>
 </section>
-</div><!-- .content-area -->
-
-<?php get_sidebar(); ?>
-</div><!-- .site-main -->
-</div><!-- .container -->
-</main><!-- #primary -->
+	</div><!-- .content-area -->
+	
+	<?php get_sidebar(); ?>
+	</div><!-- .container -->
+	</main><!-- #primary -->
 
 <?php get_footer(); ?>

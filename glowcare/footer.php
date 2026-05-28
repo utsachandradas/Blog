@@ -12,11 +12,21 @@ dynamic_sidebar( 'footer-1' );
 echo '</div>';
 }
 ?>
-<div class="site-info">
-<span>&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</span>
-<span> | </span>
-<a href="<?php echo esc_url( home_url( '/privacy-policy' ) ); ?>">Privacy Policy</a>
-</div>
+	<div class="footer-navigation">
+	<?php
+	wp_nav_menu(
+	array(
+	'theme_location' => 'footer-menu',
+	'menu_id'        => 'footer-menu',
+	'depth'          => 1,
+	'fallback_cb'    => false,
+	)
+	);
+	?>
+	</div>
+	<div class="site-info">
+	<span>&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.</span>
+	</div>
 </div>
 </footer>
 </div><!-- #page -->

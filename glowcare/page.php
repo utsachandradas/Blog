@@ -4,9 +4,8 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-<div class="container">
-<div class="site-main">
-<div class="content-area">
+	<div class="container">
+	<div class="content-area">
 <?php
 while ( have_posts() ) {
 the_post();
@@ -16,11 +15,10 @@ comments_template();
 }
 }
 ?>
-</div><!-- .content-area -->
-
-<?php get_sidebar(); ?>
-</div><!-- .site-main -->
-</div><!-- .container -->
-</main><!-- #primary -->
+	</div><!-- .content-area -->
+	
+	<?php get_sidebar(); ?>
+	</div><!-- .container -->
+	</main><!-- #primary -->
 
 <?php get_footer(); ?>

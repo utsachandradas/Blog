@@ -4,9 +4,8 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-<div class="container">
-<div class="site-main">
-<div class="content-area">
+	<div class="container">
+	<div class="content-area">
 <?php
 if ( have_posts() ) {
 while ( have_posts() ) {
@@ -18,11 +17,10 @@ the_posts_pagination();
 echo '<p>' . esc_html__( 'No posts found.', 'glowcare' ) . '</p>';
 }
 ?>
-</div><!-- .content-area -->
-
-<?php get_sidebar(); ?>
-</div><!-- .site-main -->
-</div><!-- .container -->
-</main><!-- #primary -->
+	</div><!-- .content-area -->
+	
+	<?php get_sidebar(); ?>
+	</div><!-- .container -->
+	</main><!-- #primary -->
 
 <?php get_footer(); ?>

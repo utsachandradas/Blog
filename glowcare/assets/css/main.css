@@ -1,0 +1,714 @@
+
+/* ========== 1. RESET & BASE STYLES ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fffaf9;
+    color: #4a4a4a;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #2d2d2d;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: #d4a373;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    color: #bc8a5f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button, input[type="button"], input[type="submit"] {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ========== 2. LAYOUT & CONTAINER ========== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    flex: 1;
+}
+
+/* ========== 3. HEADER & NAVIGATION ========== */
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 40px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.site-branding {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.custom-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.site-title {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.site-title a {
+    color: #2d2d2d;
+}
+
+.site-title a:hover {
+    color: #d4a373;
+}
+
+.site-description {
+    font-style: italic;
+    color: #888;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Main Navigation */
+.main-navigation {
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 15px 0;
+}
+
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-navigation li {
+    margin: 0 25px;
+}
+
+.main-navigation a {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #333;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.main-navigation a:hover {
+    border-bottom-color: #d4a373;
+    color: #d4a373;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+/* ========== 4. MAIN CONTENT AREA ========== */
+.site-main {
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.content-area {
+    flex: 1;
+    min-width: 0;
+}
+
+.widget-area {
+    width: 300px;
+}
+
+/* ========== 5. BLOG POSTS ========== */
+.post {
+    margin-bottom: 60px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.post:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
+}
+
+.post-thumbnail {
+    overflow: hidden;
+    background: #f5f5f5;
+    height: 400px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.post:hover .post-thumbnail img {
+    transform: scale(1.05);
+}
+
+.post-content {
+    padding: 40px;
+}
+
+.entry-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.entry-meta {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.entry-title {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.entry-title a {
+    color: #2d2d2d;
+}
+
+.entry-title a:hover {
+    color: #d4a373;
+}
+
+.entry-summary,
+.entry-content {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.entry-summary p,
+.entry-content p {
+    margin-bottom: 1.5rem;
+}
+
+.entry-content img {
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid #d4a373;
+    color: #d4a373;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.read-more:hover {
+    background: #d4a373;
+    color: #fff;
+}
+
+/* ========== 6. ARCHIVE & SEARCH ========== */
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.archive-description {
+    color: #888;
+    font-size: 1.1rem;
+}
+
+/* ========== 7. PAGINATION ========== */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.pagination a,
+.pagination span {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #d4a373;
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover,
+.pagination .current {
+    background: #d4a373;
+    color: #fff;
+    border-color: #d4a373;
+}
+
+/* ========== 8. SIDEBAR & WIDGETS ========== */
+.widget-area {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.02);
+}
+
+.widget {
+    margin-bottom: 30px;
+}
+
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+.widget-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #d4a373;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.widget ul li:last-child {
+    border-bottom: none;
+}
+
+.widget ul li a {
+    color: #4a4a4a;
+}
+
+.widget ul li a:hover {
+    color: #d4a373;
+}
+
+/* Search Widget */
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input[type="search"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-form input[type="submit"] {
+    padding: 10px 20px;
+    background: #d4a373;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.search-form input[type="submit"]:hover {
+    background: #bc8a5f;
+}
+
+/* ========== 9. COMMENTS ========== */
+.comments-area {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #f0f0f0;
+}
+
+.comments-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.comment-author {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.comment-metadata {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.comment-text {
+    color: #666;
+}
+
+.comment-reply-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #d4a373;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.comment-reply-link:hover {
+    background: #bc8a5f;
+}
+
+/* ========== 10. FOOTER ========== */
+.site-footer {
+    background: #2d2d2d;
+    color: #fff;
+    padding: 60px 0 20px;
+    margin-top: auto;
+}
+
+.footer-widgets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-widget {
+    color: #ddd;
+}
+
+.footer-widget-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    border-bottom: 2px solid #d4a373;
+    padding-bottom: 10px;
+}
+
+.footer-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-widget ul li {
+    margin-bottom: 10px;
+}
+
+.footer-widget ul li a {
+    color: #ddd;
+}
+
+.footer-widget ul li a:hover {
+    color: #d4a373;
+}
+
+.site-info {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.site-info a {
+    color: #d4a373;
+}
+
+/* ========== 11. ERROR 404 ========== */
+.error-404 {
+    text-align: center;
+    padding: 40px;
+}
+
+.error-404 .page-content {
+    margin-top: 20px;
+}
+
+/* ========== 12. RESPONSIVE DESIGN ========== */
+@media (max-width: 1024px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.5rem; }
+
+    .site-main {
+        flex-direction: column;
+    }
+
+    .widget-area {
+        width: 100%;
+    }
+
+    .main-navigation li {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.25rem; }
+
+    .site-header {
+        padding: 30px 0;
+    }
+
+    .site-title {
+        font-size: 2rem;
+    }
+
+    .site-description {
+        font-size: 0.95rem;
+    }
+
+    .main-navigation {
+        padding: 10px 0;
+    }
+
+    .main-navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-navigation li {
+        margin: 8px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .main-navigation ul.toggled {
+        display: flex;
+    }
+
+    .site-main {
+        padding: 40px 0;
+        gap: 30px;
+    }
+
+    .post-thumbnail {
+        height: 250px;
+    }
+
+    .post-content {
+        padding: 25px;
+    }
+
+    .entry-title {
+        font-size: 1.5rem;
+    }
+
+    .entry-meta {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .footer-widgets {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .page-title {
+        font-size: 1.75rem;
+    }
+
+    .widget-area {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.25rem; }
+    h3 { font-size: 1rem; }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .site-header {
+        padding: 20px 0;
+    }
+
+    .site-title {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .site-description {
+        font-size: 0.85rem;
+    }
+
+    .main-navigation {
+        padding: 8px 0;
+    }
+
+    .site-main {
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    .post-thumbnail {
+        height: 200px;
+    }
+
+    .post-content {
+        padding: 15px;
+    }
+
+    .entry-header {
+        margin-bottom: 15px;
+    }
+
+    .entry-title {
+        font-size: 1.25rem;
+    }
+
+    .entry-meta {
+        font-size: 0.75rem;
+    }
+
+    .read-more {
+        padding: 10px 20px;
+        font-size: 0.75rem;
+    }
+
+    .widget-area {
+        padding: 15px;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .site-footer {
+        padding: 40px 0 15px;
+    }
+
+    .footer-widgets {
+        gap: 20px;
+    }
+}
+
+/* ========== 13. UTILITY CLASSES ========== */
+.screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.sticky {
+    background: #fffaf9;
+    border-left: 4px solid #d4a373;
+    padding-left: 15px;
+}

@@ -1,4 +1,4 @@
-# GlowCare - Beauty & Skincare WordPress Theme
+# bytebd - Beauty & Skincare WordPress Theme
 
 A professional, elegant, and modern WordPress theme designed specifically for beauty, skincare, and lifestyle bloggers.
 
@@ -17,19 +17,19 @@ A professional, elegant, and modern WordPress theme designed specifically for be
 
 ## Installation & Demo Content
 
-To get started with the GlowCare theme and its demo content, follow these steps:
+To get started with the bytebd theme and its demo content, follow these steps:
 
 ### Option 1: All-in-One Package (Recommended)
 
-1.  **Download the `glowcare-full-package.zip`** from the repository root.
+1.  **Download the `bytebd-full-package.zip`** from the repository root.
 2.  **Unzip** this package on your local computer.
 3.  Inside the unzipped folder, you will find:
-    *   The `glowcare` theme folder (which can be zipped into `glowcare.zip` for direct WordPress upload).
+    *   The `bytebd` theme folder (which can be zipped into `bytebd.zip` for direct WordPress upload).
     *   The `demo-content.xml` file.
 
 ### Option 2: Separate Files
 
-Alternatively, you can download the `glowcare.zip` and `demo-content.xml` files directly from the repository root.
+Alternatively, you can download the `bytebd.zip` and `demo-content.xml` files directly from the repository root.
 
 ### Theme Installation Steps
 
@@ -37,12 +37,12 @@ Alternatively, you can download the `glowcare.zip` and `demo-content.xml` files 
     *   Go to your WordPress Dashboard > **Appearance** > **Themes**.
     *   Click **Add New** at the top.
     *   Click **Upload Theme**.
-    *   Choose the `glowcare.zip` file (either from the unzipped full package or downloaded separately) and click **Install Now**.
+    *   Choose the `bytebd.zip` file (either from the unzipped full package or downloaded separately) and click **Install Now**.
     *   Once installed, click **Activate**.
 2.  **Via FTP/cPanel**: 
-    *   Unzip the `glowcare.zip` file.
-    *   Upload the entire `glowcare` folder to your WordPress installation's `/wp-content/themes/` directory.
-    *   Go to WordPress Admin > Appearance > Themes and **Activate** the GlowCare theme.
+    *   Unzip the `bytebd.zip` file.
+    *   Upload the entire `bytebd` folder to your WordPress installation's `/wp-content/themes/` directory.
+    *   Go to WordPress Admin > Appearance > Themes and **Activate** the bytebd theme.
 
 ### Demo Content Import Steps
 
@@ -59,7 +59,7 @@ Once the import is complete, you will have sample posts, pages, and categories p
 ## Theme Structure
 
 ```
-glowcare/
+bytebd/
 ├── assets/
 │   ├── css/
 │   ├── js/

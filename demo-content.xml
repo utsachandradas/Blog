@@ -6,19 +6,19 @@
 	xmlns:wp="http://wordpress.org/export/1.2/">
 
 <channel>
-	<title>GlowCare Blog</title>
-	<link>https://example.com</link>
+	<title>bytebd</title>
+	<link>https://bytebd.website</link>
 	<description>A professional, elegant, and modern WordPress theme designed specifically for beauty, skincare, and lifestyle bloggers.</description>
 	<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://example.com</wp:base_site_url>
-	<wp:base_blog_url>https://example.com</wp:base_blog_url>
+	<wp:base_site_url>https://bytebd.website</wp:base_site_url>
+	<wp:base_blog_url>https://bytebd.website</wp:base_blog_url>
 
 	<wp:author>
 		<wp:author_id>1</wp:author_id>
 		<wp:author_login>manus</wp:author_login>
-		<wp:author_email>manus@example.com</wp:author_email>
+		<wp:author_email>info@bytebd.website</wp:author_email>
 		<wp:author_display_name><![CDATA[Manus AI]]></wp:author_display_name>
 		<wp:author_first_name><![CDATA[Manus]]></wp:author_first_name>
 		<wp:author_last_name><![CDATA[AI]]></wp:author_last_name>
@@ -57,10 +57,10 @@
 	<!-- Posts -->
 	<item>
 		<title><![CDATA[The Ultimate 5-Step Evening Skincare Routine]]></title>
-		<link>https://example.com/the-ultimate-5-step-evening-skincare-routine</link>
+		<link>https://bytebd.website/the-ultimate-5-step-evening-skincare-routine</link>
 		<pubDate>Fri, 29 May 2026 08:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[manus]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=1</guid>
+		<guid isPermaLink="false">https://bytebd.website/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[Achieving radiant skin doesn't have to be complicated. A consistent evening skincare routine is crucial for repairing your skin overnight and preparing it for the next day. Here’s a simple yet effective 5-step routine that will transform your complexion.
 
@@ -93,10 +93,10 @@ Consistency is key! Follow this routine nightly for best results.]]></content:en
 
 	<item>
 		<title><![CDATA[Top 5 Must-Have Beauty Products for a Natural Glow]]></title>
-		<link>https://example.com/top-5-must-have-beauty-products-for-a-natural-glow</link>
+		<link>https://bytebd.website/top-5-must-have-beauty-products-for-a-natural-glow</link>
 		<pubDate>Fri, 29 May 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[manus]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=2</guid>
+		<guid isPermaLink="false">https://bytebd.website/?p=2</guid>
 		<description></description>
 		<content:encoded><![CDATA[Embrace your natural beauty with these five essential products that will give you a healthy, radiant glow without heavy makeup. These are my personal favorites and have earned a permanent spot in my beauty bag.
 
@@ -130,10 +130,10 @@ These products are perfect for achieving that coveted “no-makeup” makeup loo
 
 	<item>
 		<title><![CDATA[The Art of Mindful Living: Simple Practices for Daily Wellness]]></title>
-		<link>https://example.com/the-art-of-mindful-living-simple-practices-for-daily-wellness</link>
+		<link>https://bytebd.website/the-art-of-mindful-living-simple-practices-for-daily-wellness</link>
 		<pubDate>Fri, 29 May 2026 10:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[manus]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=3</guid>
+		<guid isPermaLink="false">https://bytebd.website/?p=3</guid>
 		<description></description>
 		<content:encoded><![CDATA[In our fast-paced world, finding moments of peace and presence can be challenging. Mindful living isn't about grand gestures but about incorporating small, intentional practices into your daily routine. These practices can significantly reduce stress and enhance your overall well-being.
 
@@ -167,16 +167,16 @@ Embracing mindful living is a journey, not a destination. Be patient and kind to
 	<!-- Pages -->
 	<item>
 		<title><![CDATA[About Us]]></title>
-		<link>https://example.com/about-us</link>
+		<link>https://bytebd.website/about-us</link>
 		<pubDate>Fri, 29 May 2026 11:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[manus]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=4</guid>
+		<guid isPermaLink="false">https://bytebd.website/?page_id=4</guid>
 		<description></description>
-		<content:encoded><![CDATA[Welcome to GlowCare, your trusted source for all things beauty, skincare, and lifestyle. Our mission is to empower you with knowledge and inspiration to live a radiant life, inside and out. We believe that true beauty stems from self-care, informed choices, and a holistic approach to well-being.
+		<content:encoded><![CDATA[Welcome to bytebd, your trusted source for all things beauty, skincare, and lifestyle. Our mission is to empower you with knowledge and inspiration to live a radiant life, inside and out. We believe that true beauty stems from self-care, informed choices, and a holistic approach to well-being.
 
-Founded by a team of passionate beauty enthusiasts and wellness advocates, GlowCare is dedicated to providing honest product reviews, expert skincare advice, and practical lifestyle tips. We strive to create a community where everyone feels confident and supported on their journey to glow.
+Founded by a team of passionate beauty enthusiasts and wellness advocates, bytebd is dedicated to providing honest product reviews, expert skincare advice, and practical lifestyle tips. We strive to create a community where everyone feels confident and supported on their journey to glow.
 
-Join us as we explore the latest trends, demystify complex ingredients, and share our favorite rituals for a healthier, happier you. Thank you for being a part of the GlowCare family!]]></content:encoded>
+Join us as we explore the latest trends, demystify complex ingredients, and share our favorite rituals for a healthier, happier you. Thank you for being a part of the bytebd family!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4</wp:post_id>
 		<wp:post_date>2026-05-29 11:00:00</wp:post_date>
@@ -194,19 +194,19 @@ Join us as we explore the latest trends, demystify complex ingredients, and shar
 
 	<item>
 		<title><![CDATA[Contact Us]]></title>
-		<link>https://example.com/contact-us</link>
+		<link>https://bytebd.website/contact-us</link>
 		<pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[manus]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=5</guid>
+		<guid isPermaLink="false">https://bytebd.website/?page_id=5</guid>
 		<description></description>
 		<content:encoded><![CDATA[We love hearing from our readers! Whether you have a question, a suggestion, or just want to say hello, please don't hesitate to reach out. Your feedback helps us grow and improve.
 
-**Email**: info@glowcare.com
+**Email**: info@bytebd.website
 
 **Social Media**:
-*   Facebook: @GlowCareBlog
-*   Instagram: @GlowCareOfficial
-*   Twitter: @GlowCareTweets
+*   Facebook: @bytebdBlog
+*   Instagram: @bytebdOfficial
+*   Twitter: @bytebdTweets
 
 **Address**: 123 Beauty Lane, Wellness City, WC 12345
 
@@ -230,12 +230,12 @@ Alternatively, you can fill out the contact form below, and we'll get back to yo
 
 	<item>
 		<title><![CDATA[Privacy Policy]]></title>
-		<link>https://example.com/privacy-policy</link>
+		<link>https://bytebd.website/privacy-policy</link>
 		<pubDate>Fri, 29 May 2026 13:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[manus]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=6</guid>
+		<guid isPermaLink="false">https://bytebd.website/?page_id=6</guid>
 		<description></description>
-		<content:encoded><![CDATA[At GlowCare, your privacy is of utmost importance to us. This Privacy Policy outlines the types of information we collect, how we use it, and the steps we take to protect your personal data when you visit our website.
+		<content:encoded><![CDATA[At bytebd, your privacy is of utmost importance to us. This Privacy Policy outlines the types of information we collect, how we use it, and the steps we take to protect your personal data when you visit our website.
 
 **Information We Collect**:
 *   **Personal Data**: Such as your name and email address when you subscribe to our newsletter or leave comments.

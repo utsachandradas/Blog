@@ -15,12 +15,46 @@ A professional, elegant, and modern WordPress theme designed specifically for be
 - **SEO Friendly**: Clean, semantic HTML structure
 - **Translation Ready**: Full translation support with text domain
 
-## Installation
+## Installation & Demo Content
 
-1. Download the theme files
-2. Upload the `glowcare` folder to `/wp-content/themes/`
-3. Go to WordPress Admin > Appearance > Themes
-4. Activate the GlowCare theme
+To get started with the GlowCare theme and its demo content, follow these steps:
+
+### Option 1: All-in-One Package (Recommended)
+
+1.  **Download the `glowcare-full-package.zip`** from the repository root.
+2.  **Unzip** this package on your local computer.
+3.  Inside the unzipped folder, you will find:
+    *   The `glowcare` theme folder (which can be zipped into `glowcare.zip` for direct WordPress upload).
+    *   The `demo-content.xml` file.
+
+### Option 2: Separate Files
+
+Alternatively, you can download the `glowcare.zip` and `demo-content.xml` files directly from the repository root.
+
+### Theme Installation Steps
+
+1.  **Via WordPress Admin (Recommended)**:
+    *   Go to your WordPress Dashboard > **Appearance** > **Themes**.
+    *   Click **Add New** at the top.
+    *   Click **Upload Theme**.
+    *   Choose the `glowcare.zip` file (either from the unzipped full package or downloaded separately) and click **Install Now**.
+    *   Once installed, click **Activate**.
+2.  **Via FTP/cPanel**: 
+    *   Unzip the `glowcare.zip` file.
+    *   Upload the entire `glowcare` folder to your WordPress installation's `/wp-content/themes/` directory.
+    *   Go to WordPress Admin > Appearance > Themes and **Activate** the GlowCare theme.
+
+### Demo Content Import Steps
+
+1.  In your WordPress Dashboard, go to **Tools** > **Import**.
+2.  Find **WordPress** in the list and click **Install Now** (if the WordPress Importer plugin is not already installed).
+3.  Once installed, click **Run Importer**.
+4.  Click **Choose File** and select the `demo-content.xml` file (from the unzipped full package or downloaded separately).
+5.  Click **Upload file and import**.
+6.  On the next screen, you can assign posts to an existing user or create a new one. Make sure to check the box to **Download and import file attachments**.
+7.  Click **Submit**.
+
+Once the import is complete, you will have sample posts, pages, and categories populating your site, giving you a great starting point for customization.
 
 ## Theme Structure
 
